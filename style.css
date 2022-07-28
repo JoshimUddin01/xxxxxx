@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+
+li {
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.logo_and_nav_bars {
+    width: 100%;
+    background-color: #3c6382;
+    height: 120px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a {
+    color: white;
+}
+
+.business_logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.navs {
+    position: relative;
+    top: 25%;
+    right: 50px;
+}
+
+ a:hover {
+    color: #959595;
+ }
+
+ .slider_png {
+    width: 100%;
+ }
+
+ .group_summary_description {
+    top: 150px;
+    padding: 20px;
+ }
+
+ #summary {
+    text-align: center;
+ }
+
+ .summary_paragraph {
+    width: 900px;
+    margin: auto;
+}
+
+.work_1 {
+    width: 350px;
+    height: 233px;
+    border: 1px solid #ff5f43;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.work_img_1 {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.work_img_sec {
+    position: absolute;
+}
+
+.work_desc_1 {
+    position: absolute;
+    width: 320px;
+    height: 203px;
+    background: #1c2b48;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: -1;
+    transition: 1s;
+}
+
+.view_live_work {
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    background: #cc4b81;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.work_img_sec:hover  {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.group_flex_one, .group_flex_two, .group_flex_three {
+    display: flex;
+    justify-content: center;
+}
+
+.recent_work_header {
+    text-align: center;
+}
+
+.group_summary_description {
+    background: #3c6382;
+    color: white;
+    margin-top: 150px;
+}
+
+.recent_work {
+    margin-top: 150px;
+}
+
+.view_span {
+    padding: 5px;
+    background: #138690;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.view_all_recent_work {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #3c6382;
+    height: 350px;
+    width: 100%;
+}
+
+.social_links {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.btn {
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+span.footer_header {
+    color: white;
+}
